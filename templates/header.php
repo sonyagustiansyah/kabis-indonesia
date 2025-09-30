@@ -24,10 +24,19 @@
         <li class="nav-item"><a class="nav-link" href="index.php#tentang">Tentang Kami</a></li>
         <li class="nav-item"><a class="nav-link" href="index.php#brand">Brand Kami</a></li>
         <li class="nav-item"><a class="nav-link" href="index.php#produk">Produk</a></li>
-        <li class="nav-item"><a class="nav-link" href="index.php#dapatkan">Dapatkan Produk</a></li>
         <li class="nav-item"><a class="nav-link" href="index.php#artikel">Artikel</a></li>
         <li class="nav-item"><a class="nav-link" href="hubungi.php">Hubungi Kami</a></li>
       </ul>
+      <div class="d-flex">
+        <select class="form-select text-light bg-primary" aria-label="Pilih Bahasa" onchange="location = this.value;">
+          <option value="#" selected>ID</option>
+          <!-- <option value="#">EN</option>
+          <option value="#">MY</option>
+          <option value="#">CH</option>
+          <option value="#">TH</option>
+          <option value="#">VN</option> -->
+        </select>
+      </div>
     </div>
   </div>
 </nav>

@@ -12,14 +12,14 @@
     if ($result->num_rows > 0) {
       while ($row = $result->fetch_assoc()) {
         echo '
-        <div class="col-md-4">
+        <div class="col-md-3">
           <div class="card h-100">
             <img src="uploads/'.$row['gambar'].'" class="card-img-top" alt="'.$row['judul'].'">
             <div class="card-body">
               <h5 class="card-title">'.$row['judul'].'</h5>
               <p class="card-text">'.substr(strip_tags($row['konten']), 0, 100).'...</p>
+              </div>
               <a href="artikel_detail.php?id='.$row['id'].'" class="btn btn-link">Baca Selengkapnya</a>
-            </div>
           </div>
         </div>';
       }
