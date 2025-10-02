@@ -1,7 +1,7 @@
 <?php
 $host = "localhost";
-$user = "root";      // ganti sesuai username MySQL
-$pass = "";          // ganti sesuai password MySQL
+$user = "root";
+$pass = "";
 $db   = "kabis";
 
 $conn = new mysqli($host, $user, $pass, $db);

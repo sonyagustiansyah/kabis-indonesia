@@ -8,19 +8,19 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="assets/img/slide1.jpg" class="d-block w-100" alt="">
+      <img src="assets/img/slide1.webp" class="d-block w-100" alt="">
     </div>
     <div class="carousel-item">
-      <img src="assets/img/slide2.jpg" class="d-block w-100" alt="">
+      <img src="assets/img/slide2.webp" class="d-block w-100" alt="">
     </div>
     <div class="carousel-item">
-      <img src="assets/img/slide3.jpg" class="d-block w-100" alt="">
+      <img src="assets/img/slide3.webp" class="d-block w-100" alt="">
     </div>
     <div class="carousel-item">
-      <img src="assets/img/slide4.jpg" class="d-block w-100" alt="">
+      <img src="assets/img/slide4.webp" class="d-block w-100" alt="">
     </div>
     <div class="carousel-item">
-      <img src="assets/img/slide5.jpg" class="d-block w-100" alt="">
+      <img src="assets/img/slide5.webp" class="d-block w-100" alt="">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">

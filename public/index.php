@@ -10,9 +10,25 @@
         <div class="col-md-6">
             <h2 class="mb-4">Tentang Kami</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam debitis illum quia incidunt officia, provident natus adipisci omnis, quas vel exercitationem sapiente. Atque ratione asperiores blanditiis voluptate ea labore deserunt unde! Animi at ducimus earum tempore odit dolor expedita autem, ut ex fuga deleniti sed, non velit laborum consequatur excepturi!</p>
+            <div class="d-flex">
+              <div class="card me-3" style="width: 10rem;">
+                <img class="card-img-top" src="assets/img/catalogue.webp" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Catalogue</h5>
+                  <a href="assets/pdf/catalogue.pdf" class="btn btn-primary" download>Download</a>
+                </div>
+              </div>
+              <div class="card" style="width: 10rem;">
+                <img class="card-img-top" src="assets/img/company_profile.webp" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Company</h5>
+                  <a href="assets/pdf/company_profile.pdf" class="btn btn-primary" download>Download</a>
+                </div>
+              </div>
+            </div>
         </div>
         <div class="col-md-6">
-            <img src="assets/img/about.jpeg" alt="" width="600">
+            <img src="assets/img/about.webp" alt="" width="600" height="410">
         </div>
     </div>
   </div>
@@ -23,18 +39,18 @@
   <div class="container text-center">
     <h2 class="mb-4">Brand Kami</h2>
     <div class="row g-4 justify-content-center">
-      <div class="col-md-2"><img src="assets/img/lexus.png" class="img-fluid" alt="Brand 1"></div>
-      <div class="col-md-2"><img src="assets/img/toyota.png" class="img-fluid" alt="Brand 2"></div>
-      <div class="col-md-2"><img src="assets/img/mazda.png" class="img-fluid" alt="Brand 3"></div>
-      <div class="col-md-2"><img src="assets/img/hyundai.png" class="img-fluid" alt="Brand 4"></div>
-      <div class="col-md-2"><img src="assets/img/kia.png" class="img-fluid" alt="Brand 5"></div>
+      <div class="col-md-2"><img src="assets/img/lexus.webp" class="img-fluid" alt="Brand 1"></div>
+      <div class="col-md-2"><img src="assets/img/toyota.webp" class="img-fluid" alt="Brand 2"></div>
+      <div class="col-md-2"><img src="assets/img/mazda.webp" class="img-fluid" alt="Brand 3"></div>
+      <div class="col-md-2"><img src="assets/img/hyundai.webp" class="img-fluid" alt="Brand 4"></div>
+      <div class="col-md-2"><img src="assets/img/kia.webp" class="img-fluid" alt="Brand 5"></div>
     </div>
     <div class="row g-4 justify-content-center">
-      <div class="col-md-2"><img src="assets/img/tata.png" class="img-fluid" alt="Brand 6"></div>
-      <div class="col-md-2"><img src="assets/img/nissan.png" class="img-fluid" alt="Brand 7"></div>
-      <div class="col-md-2"><img src="assets/img/suzuki.png" class="img-fluid" alt="Brand 8"></div>
-      <div class="col-md-2"><img src="assets/img/mitsubishi.png" class="img-fluid" alt="Brand 9"></div>
-      <div class="col-md-2"><img src="assets/img/honda.png" class="img-fluid" alt="Brand 10"></div>
+      <div class="col-md-2"><img src="assets/img/tata.webp" class="img-fluid" alt="Brand 6"></div>
+      <div class="col-md-2"><img src="assets/img/nissan.webp" class="img-fluid" alt="Brand 7"></div>
+      <div class="col-md-2"><img src="assets/img/suzuki.webp" class="img-fluid" alt="Brand 8"></div>
+      <div class="col-md-2"><img src="assets/img/mitsubishi.webp" class="img-fluid" alt="Brand 9"></div>
+      <div class="col-md-2"><img src="assets/img/honda.webp" class="img-fluid" alt="Brand 10"></div>
     </div>
   </div>
 </section>
@@ -52,7 +68,7 @@
       if ($result->num_rows > 0) {
         while ($row = $result->fetch_assoc()) {
           echo '
-          <div class="col-md-2" style="width: 10rem;">
+          <div class="col-md-2" style="width: 12rem;">
             <div class="card h-100">
               <img src="uploads/'.$row['gambar'].'" class="card-img-top" alt="'.$row['nama'].'">
               <div class="card-body">
@@ -92,7 +108,6 @@
                 <h5 class="card-title">'.$row['judul'].'</h5>
                 <p class="card-text">'.substr($row['konten'],0,80).'...</p>
                 </div>
-                <a href="artikel.php" class="btn btn-link">Baca Selengkapnya</a>
             </div>
           </div>';
         }
