@@ -1,0 +1,9 @@
+CREATE TABLE detail_produk (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    produk_id INT NOT NULL,
+    varian VARCHAR(100) NOT NULL,
+    harga DECIMAL(15,2) NOT NULL,
+    stok INT DEFAULT 0,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (produk_id) REFERENCES produk(id) ON DELETE CASCADE
+);

@@ -29,7 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <!-- Gambar -->
         <div class="col-md-6 mb-4 mb-md-0">
           <div class="contact-img shadow">
-            <img src="../../assets/gambar/hubungi.webp" alt="Hubungi Kami" loading="lazy" class="img-fluid">
+            <img src="assets/img/hubungi.webp" alt="Hubungi Kami" loading="lazy" class="img-fluid">
           </div>
         </div>
 
